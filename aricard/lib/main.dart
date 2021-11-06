@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(baseApp());
+}
+
+class baseApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.green,
         body: Container(),
       ),
-    ),
-  );
+    );
+  }
 }
