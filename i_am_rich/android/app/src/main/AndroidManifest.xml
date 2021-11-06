@@ -2,7 +2,7 @@
     package="com.example.i_am_rich">
    <application
         android:label="i_am_rich"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@drawable/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
